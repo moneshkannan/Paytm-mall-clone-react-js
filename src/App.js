@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import Topbar from './components/Topbar'
+import Card from './components/Card'
+import Cars from './components/Cars'
+import Cardtwo from './components/Cardtwo';
+import Gadgetzone from './components/Gadgetzone';
+import Cardthree from './components/Cardthree';
+import Mobiletab from './components/Mobiletab';
+import Cardfour from './components/Cardfour';
+import Flashproduct from './components/Flashproduct';
+import Bestlaptops from './components/Bestlaptops';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Topbar/>
+      <Card/>
+      <Cars/>
+      <Cardtwo/>
+      <Gadgetzone/>
+      <Cardthree/>
+      <Mobiletab/>
+      <Cardfour/>
+      <Flashproduct/>
+      <Bestlaptops/>
     </div>
   );
 }
