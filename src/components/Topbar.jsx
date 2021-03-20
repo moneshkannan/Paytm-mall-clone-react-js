@@ -12,6 +12,9 @@ function Topbar() {
           <div className="empty-navbar">
             <p style={{color:"white",width:"100%"}}>x</p>
           </div>
+          
+          <div className="fixed">
+          <nav className="navbar fixed-top navbar-expand-lg navbar-light" style={{marginBottom:"2rem",backgroundColor:"white"}}>
           <div>
             <img 
             src="https://png.pngitem.com/pimgs/s/12-123311_paytm-mall-transparent-logo-paytm-mall-icon-png.png"
@@ -19,12 +22,11 @@ function Topbar() {
             height="60"
             className="paytmlogo"
             alt="paytm"
-            style={{display:"block", marginLeft:"auto", marginRight:"auto"}}
+            style={{display:"block", marginLeft:"auto", marginRight:"auto",marginTop:"0rem",marginBottom:"0rem"}}
 
             />
           </div>
-
-          <nav className="navbar navbar-expand-lg navbar-light" style={{marginBottom:"2rem"}}>
+            
   <div className="container-fluid">
     {/* <a className="nav-link active" href="/">Shop by category</a> */}
     <div className="dropdown">
@@ -64,6 +66,7 @@ function Topbar() {
     </div>
   </div>
 </nav>
+</div>
         </div>
     )
 }
