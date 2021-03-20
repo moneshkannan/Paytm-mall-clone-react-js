@@ -31,13 +31,13 @@ function Bestlaptops() {
             </div>
             <div className="card-deck" style={{justifyContent:"space-evenly", display:"", alignItems: "center", width:"100%", marginBottom:"3rem"}}>
             <div className="rounded-circle" >
-                <a href="/"><img className="rounded-start"  style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773778/1616180936699.png?imwidth=140&impolicy=hq" alt="Card"/></a>
+                <a href="/"><img className="rounded-circle"  style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773778/1616180936699.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
                     <a href="/"><span style={{color: "black", fontSize: "15px"}}>Printers</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
-                <a href="/"><img className="rounded-start" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773779/1616180837746.png?imwidth=140&impolicy=hq" alt="Card"/></a>
+                <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773779/1616180837746.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
                     <a href="/"><span style={{color: "black", fontSize: "15px"}}>Monitors</span></a>
                 
