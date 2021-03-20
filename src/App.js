@@ -11,6 +11,11 @@ import Mobiletab from './components/Mobiletab';
 import Cardfour from './components/Cardfour';
 import Flashproduct from './components/Flashproduct';
 import Bestlaptops from './components/Bestlaptops';
+import Expfashion from './components/Expfashion';
+import Electrobest from './components/Electrobest';
+import Homeessen from './components/Homeessen';
+import Ghbest from './components/Ghbest';
+import Footers from './components/Footers';
 function App() {
   return (
     <div className="App">
@@ -24,7 +29,12 @@ function App() {
       <Cardfour/>
       <Flashproduct/>
       <Bestlaptops/>
-    </div>
+      <Expfashion />
+      <Electrobest/>
+      <Homeessen/>
+      <Ghbest/>
+      <Footers/>
+      </div>
   );
 }
 
