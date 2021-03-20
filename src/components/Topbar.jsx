@@ -19,6 +19,8 @@ function Topbar() {
             height="60"
             className="paytmlogo"
             alt="paytm"
+            style={{display:"block", marginLeft:"auto", marginRight:"auto"}}
+
             />
           </div>
 

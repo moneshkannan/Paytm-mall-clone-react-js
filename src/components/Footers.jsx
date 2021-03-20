@@ -5,7 +5,7 @@ function Footers() {
         <div>
             <section id="footer">
 		<div className="container">
-			<h4 style={{fontSize:"1rem", textAlign:"left"}}>From Electronics, Fashion to Cars: Buy Everything Online from the Convenience of Your Home from Paytm Mall</h4>
+			<h4 style={{fontSize:"1rem", textAlign:"left",marginTop:"3rem"}}>From Electronics, Fashion to Cars: Buy Everything Online from the Convenience of Your Home from Paytm Mall</h4>
 			<div className="row text-center text-xs-center text-sm-left text-md-left">
 				<div className="col col-sm-4 col-md-4">
 					<ul class="list-unstyled quick-links">

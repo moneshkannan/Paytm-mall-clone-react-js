@@ -16,6 +16,7 @@ import Electrobest from './components/Electrobest';
 import Homeessen from './components/Homeessen';
 import Ghbest from './components/Ghbest';
 import Footers from './components/Footers';
+import Content1 from './components/Content1';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
       <Electrobest/>
       <Homeessen/>
       <Ghbest/>
+      <Content1 />
       <Footers/>
       </div>
   );
