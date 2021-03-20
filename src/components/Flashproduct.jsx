@@ -3,7 +3,7 @@ import "./Flashproduct.css"
 function Flashproduct() {
     return (
         <div className="Flashproduct">
-            <h1 style={{fontWeight:"bolder"}}>Flash Products</h1>
+            <h1 style={{fontWeight:"bolder", marginBottom:"3rem"}}>Flash Products</h1>
             <button type="button" class="btn btn-danger rounded-pill"><span style={{fontWeight:"bold",marginLeft:"1rem",marginRight:"1rem"}}>View all</span></button>
             <div className="card-deck" style={{alignItems:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem",marginTop:"2rem"}}>
                 <div className="card" style={{width: "5rem", border:"none"}}>

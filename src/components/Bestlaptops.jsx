@@ -4,7 +4,7 @@ function Bestlaptops() {
     return (
         <div className="Bestlaptops">
             <h1 style={{fontWeight:"bolder"}}>Bestselling Laptops</h1>
-            <div className="card-deck" style={{alignItems:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
+            <div className="card-deck" style={{alignItems:"center",textAlign:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
                 <div className="card" style={{width: "18rem", border:"none"}}>
                     <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/604887/1605590185585.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
@@ -29,17 +29,17 @@ function Bestlaptops() {
                     <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/685695/1606220264284.jpg?imwidth=480&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
             </div>
-            <div className="card-deck" style={{justifyContent:"space-evenly", display:"", alignItems: "center", width:"100%", marginBottom:"3rem"}}>
+            <div className="card-deck" style={{justifyContent:"space-evenly", textAlign:"center", display:"", alignItems: "center", width:"100%", marginBottom:"3rem"}}>
             <div className="rounded-circle" >
                 <a href="/"><img className="rounded-circle"  style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773778/1616180936699.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>Printers</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Printers</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773779/1616180837746.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>Monitors</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Monitors</span></a>
                 
                 </div>
                 </div>
@@ -47,50 +47,50 @@ function Bestlaptops() {
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773780/1616181094644.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>Projectors</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Projectors</span></a>
                 
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773781/1616181017397.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>Desktop PC</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Desktop PC</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773782/1616180914888.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>All in One...</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>All in One...</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773789/1616181239528.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                   <a href="/"> <span style={{color: "black", fontSize: "15px"}}>3D printer..</span></a>
+                   <a href="/"> <span style={{color: "black",fontWeight:"500"}}>3D printer..</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773790/1616181367120.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black",fontSize: "15px"}}>Scanners</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Scanners</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773829/1616181414122.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black", fontSize: "15px"}}>Mini/Bare..</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Mini/Bare..</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773791/1616181159034.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black",fontSize: "15px"}}>Ink Catridg..</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Ink Catridg..</span></a>
                 </div>
                 </div>
                 <div className="rounded-circle">
                 <a href="/"><img className="rounded-circle" style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/773866/1616181338482.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">
-                    <a href="/"><span style={{color: "black",fontSize: "15px"}}>Toner Cart..</span></a>
+                    <a href="/"><span style={{color: "black",fontWeight:"500"}}>Toner Cart..</span></a>
                 </div>
                 </div>
 
