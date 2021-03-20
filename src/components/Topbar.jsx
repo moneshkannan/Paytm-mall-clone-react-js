@@ -31,7 +31,7 @@ function Topbar() {
     {/* <a className="nav-link active" href="/">Shop by category</a> */}
     <div className="dropdown">
   <button className="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >
-    <span style={{fontWeight : "bold", color: "black"}}>shop by category</span>
+    <span style={{fontWeight : "bold", color: "black"}}><i style={{color:"red"}} className="fas fa-bars"></i> shop by category</span>
   </button>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
     <li><a className="dropdown-item" href="/">ELECTRONICS</a></li>

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Gadgetzone.css"
 function Gadgetzone() {
     return (
-        <div>
+        <div className="Gadgetzone">
             <h1 style={{fontWeight:"bolder", marginBottom:"2rem"}}>Gadget zone</h1>
             <div className="card-deck" style={{alignItems:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
                 <div className="card" style={{width: "18rem", border:"none"}}>
