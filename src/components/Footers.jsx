@@ -43,6 +43,7 @@ function Footers() {
 					</div>
 				</div>
 			</div>
+			<h6 style={{textAlign:"center",marginBottom:"3rem"}}>© Designed by Monesh Kannan - Codingmart</h6>
 		</footer>
 	</div>
     )
