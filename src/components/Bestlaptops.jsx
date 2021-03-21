@@ -6,16 +6,16 @@ function Bestlaptops() {
             <h1 style={{fontWeight:"bolder"}}>Bestselling Laptops</h1>
             <div className="card-deck" style={{alignItems:"center",textAlign:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
                 <div className="card" style={{width: "18rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/604887/1605590185585.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773965/1616184880789.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
                 <div className="card" style={{width: "18rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/604888/1605590188228.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773966/1616184675291.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
                 <div className="card" style={{width: "18rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/604890/1605590150552.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773967/1616184700467.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
                 <div className="card" style={{width: "18rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/604891/1605590153887.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
+                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773968/1616184852400.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
             </div>
             <div className="card-deck" style={{alignItems:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
