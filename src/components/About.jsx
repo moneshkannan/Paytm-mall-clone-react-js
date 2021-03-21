@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className="About" style={{marginTop:"2rem"}}>
+        <div className="About" style={{marginTop:"2rem",backgroundColor:"#f5f5f5"}}>
             <div className="d-flex">
                 <div className="mr-auto p-2">
                     <a href="/"><span style={{paddingRight:"15px",paddingLeft:"20px",color:"#f05820"}}>About Us</span></a>

@@ -18,6 +18,7 @@ import Ghbest from './components/Ghbest';
 import Footers from './components/Footers';
 import Content1 from './components/Content1';
 import About from './components/About';
+import Content2 from './components/Content2';
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
       <Homeessen/>
       <Ghbest/>
       <Content1 />
+      <Content2/>
       <About/>
       <Footers/>
       </div>
