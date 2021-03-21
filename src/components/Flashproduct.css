@@ -1,3 +1,10 @@
 .Flashproduct{
     text-align: center;
 }
+.price{
+    font-size: 17px
+}
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.05);
+}
