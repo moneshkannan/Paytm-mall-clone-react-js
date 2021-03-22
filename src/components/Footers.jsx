@@ -43,7 +43,7 @@ function Footers() {
 					</div>
 				</div>
 			</div>
-			<h6 style={{textAlign:"center",marginBottom:"3rem"}}>© Designed by Monesh Kannan - Codingmart</h6>
+			<h6 style={{textAlign:"center",marginBottom:"3rem"}}>© Designed by Monesh Kannan (<a className = "git" style={{color:"hotpink"}} href="https://github.com/moneshkannan/Paytm-mall-clone-react-js">Github</a>) - Codingmart</h6>
 		</footer>
 	</div>
     )
