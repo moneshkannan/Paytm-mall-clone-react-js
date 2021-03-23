@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card() {
     return (
-        <div className="card-deck" style={{justifyContent:"space-evenly", display:"flex",textAlign:"center", width:"100%",marginTop:"4rem"}}>
+        <div className="card-deck" style={{justifyContent:"space-evenly", display:"flex",textAlign:"center", width:"100%",marginTop:"5rem"}}>
             <div className="rounded-circle" >
                 <a href="/"><img className="rounded-start"  style={{height:"5rem",width:"5rem"}} src="https://assetscdn1.paytm.com/images/catalog/view_item/765717/1615634180672.png?imwidth=140&impolicy=hq" alt="Card"/></a>
                 <div className="card-body">

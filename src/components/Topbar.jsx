@@ -1,7 +1,7 @@
 import React from 'react'
-import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
+//import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+//import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+//import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
 //import SearchIcon from '@material-ui/icons/Search';
 //import Navbar from 'react-bootstrap/Navbar'
 //import './Topbar.css'
@@ -9,64 +9,49 @@ import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfie
 function Topbar() {
     return (
         <div>
-          <div className="empty-navbar">
-            <p style={{color:"white",width:"100%"}}>x</p>
-          </div>
-          
-          <div className="fixed">
-          <nav className="navbar fixed-top navbar-expand-lg navbar-light" style={{marginBottom:"2rem",backgroundColor:"white"}}>
-          <div>
-            <img 
-            src="https://png.pngitem.com/pimgs/s/12-123311_paytm-mall-transparent-logo-paytm-mall-icon-png.png"
-            width="100"
-            height="60"
-            className="paytmlogo"
-            alt="paytm"
-            style={{display:"block", marginLeft:"auto", marginRight:"auto",marginTop:"0rem",marginBottom:"0rem"}}
-
-            />
-          </div>
-            
-  <div className="container-fluid">
-    {/* <a className="nav-link active" href="/">Shop by category</a> */}
-    <div className="dropdown">
-  <button className="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >
-    <span style={{fontWeight : "bold", color: "black"}}><i style={{color:"red"}} className="fas fa-bars"></i> shop by category</span>
-  </button>
-  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a className="dropdown-item" href="/">ELECTRONICS</a></li>
-    <li><a className="dropdown-item" href="/">MOBILES AND TABLETS</a></li>
-    <li><a className="dropdown-item" href="/">HEALTH & GROCERY</a></li>
-    <li><a className="dropdown-item" href="/">PROTECT YOURSELF</a></li>
-    <li><a className="dropdown-item" href="/">BEAUTY AND GROOMING</a></li>
-    <li><a className="dropdown-item" href="/">MENS FASHION</a></li>
-    <li><a className="dropdown-item" href="/">WOMENS FASHION</a></li>
-    <li><a className="dropdown-item" href="/">HOME AND KITCHEN</a></li>
-    <li><a className="dropdown-item" href="/">BOOKS AND STATIONARY</a></li>
-  </ul>
-</div>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarScroll">
-      <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{ }}>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">        </a>
-        </li>
-        <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search for a Product, Brand or Category" aria-label="Search" style={{width:600, boxShadow:"none", color:"black"}}/>
-        <button className="btn btn-outline-success" type="submit"><i className="fas fa-search" style={{color:"red",borderWidth:"0px", border:"none"}}></i></button>
-      </form>
-      </ul>
-      <li className="d-flex nav-item">
-          <a className="nav-link" style={{color: "black"}} href="/"><PhoneAndroidIcon style={{color: "red"}}/>My Orders</a>
-          <a className="nav-link" style={{color: "black"}} href="/"><ShoppingBasketIcon style={{color: "red"}}/>No items in the bag</a>
-          <a className="nav-link" style={{color: "black"}} href="/"><SentimentVerySatisfiedIcon style={{color: "red"}}/>Log in/Sign up</a>
-        </li>
-    </div>
-  </div>
-</nav>
-</div>
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" style={{backgroundColor:"white"}}>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <img src="https://png.pngitem.com/pimgs/s/12-123311_paytm-mall-transparent-logo-paytm-mall-icon-png.png" height="50px" width="90px" alt="logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown" style={{marginRight:"1rem"}}>
+                                <a class="nav-link dropdown-toggle btn btn-outline-danger" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-bars" style={{paddingRight:"1rem"}}></i>
+                                    <span style={{fontWeight:"bold",color:"black"}}>Shop by Category</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/">Action</a></li>
+                                    <li><a class="dropdown-item" href="/">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="/">Something else here</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        <form class="d-flex col-md-6 ml-2">
+                            <input class="form-control me-2" style={{boxShadow:"none"}} type="search" placeholder="Search for a Product,Brand or Category" aria-label="Search" />
+                            <button class="btn btn-outline-danger" type="submit"><i class="fas fa-search" style={{color:"black"}}></i></button>
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/"><i class="fas fa-mobile-alt" style={{color:"red",paddingRight:"0.5rem",fontSize:"1rem"}}></i><span style={{color:"#7e7e7e",fontWeight:"400"}}>  My Orders</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/"><i class="fas fa-shopping-bag" style={{color:"red",paddingRight:"0.5rem",fontSize:"1rem"}}></i><span style={{color:"#7e7e7e",fontWeight:"400"}}>No Items in Bag</span></a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/"><i class="far fa-smile-beam" style={{color:"red",paddingRight:"0.5rem",fontSize:"1rem"}}></i><span style={{color:"#7e7e7e",fontWeight:"400"}}>Login/Signup</span></a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
         </div>
     )
 }
