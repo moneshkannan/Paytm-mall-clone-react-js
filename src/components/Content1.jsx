@@ -28,25 +28,25 @@ Shop by categories, check out all the available deals, limited period offers, ca
         <p>Paytm Mall presents benefits like faster delivery with easy returns and payment options. Moreover, you can also take delight in online shopping with cash on delivery (COD) option as & when needed.</p>
         <div className="row">
             <div className="card-deck">
-            <div className="card" style={{width: "5rem", border:"none"}}>
-            <i className="fas fa-heart"style={{textAlign:"center"}}></i>
-            <span style={{textAlign:"center"}}>24x7 Help</span>
-            <p style={{textAlign:"center"}}>Need Help? Click Here. You can also talk to us on 0120 4606060 to resolve your query.</p>
+                <div className="card" style={{width: "5rem", border:"none"}}>
+                    <i className="fas fa-heart"style={{textAlign:"center"}}></i>
+                    <span style={{textAlign:"center"}}>24x7 Help</span>
+                    <p style={{textAlign:"center"}}>Need Help? Click Here. You can also talk to us on 0120 4606060 to resolve your query.</p>
                 </div>
                 <div className="card" style={{width: "5rem", border:"none"}}>
-            <i className="far fa-check-square"style={{textAlign:"center"}}></i>
-            <span style={{textAlign:"center"}}>Paytm Trust</span>
-            <p style={{textAlign:"center"}}>Your money is yours! All refunds come with no question asked guarantee.</p>
+                    <i className="far fa-check-square"style={{textAlign:"center"}}></i>
+                    <span style={{textAlign:"center"}}>Paytm Trust</span>
+                    <p style={{textAlign:"center"}}>Your money is yours! All refunds come with no question asked guarantee.</p>
                 </div>
                 <div className="card" style={{width: "5rem", border:"none"}}>
-            <i className="fas fa-star" style={{textAlign:"center"}}></i>
-            <span style={{textAlign:"center"}}>100% Assurance</span>
-            <p style={{textAlign:"center"}}>At Paytm, we provide 100% assurance. If you have any issue, your money is immediately refunded. Sit back and enjoy your shopping.</p>
+                    <i className="fas fa-star" style={{textAlign:"center"}}></i>
+                    <span style={{textAlign:"center"}}>100% Assurance</span>
+                    <p style={{textAlign:"center"}}>At Paytm, we provide 100% assurance. If you have any issue, your money is immediately refunded. Sit back and enjoy your shopping.</p>
                 </div>
                 <div className="card" style={{width: "5rem", border:"none"}}>
-            <i className="fas fa-shopping-bag"style={{textAlign:"center"}}></i>
-            <span style={{textAlign:"center"}}>Paytm Mall Promise</span>
-            <p style={{textAlign:"center"}}>Products with this tag are quality checked, and shipped the same day from certified warehouses. So you get the right product, faster.</p>
+                    <i className="fas fa-shopping-bag"style={{textAlign:"center"}}></i>
+                    <span style={{textAlign:"center"}}>Paytm Mall Promise</span>
+                    <p style={{textAlign:"center"}}>Products with this tag are quality checked, and shipped the same day from certified warehouses. So you get the right product, faster.</p>
                 </div>
                 
             </div>
