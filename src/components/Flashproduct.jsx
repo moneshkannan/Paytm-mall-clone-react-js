@@ -23,7 +23,7 @@ function Flashproduct() {
                     <div className="alert alert-success"><span>Cashback ₹300</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMMILTON-INSULHAMI57216FB0262E4/1583407869954_26.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"0.8rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMMILTON-INSULHAMI57216FB0262E4/1583407869954_26.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹815</span> <spant style={{textDecoration: "line-through"}}>₹1,200</spant>
                     </div>
@@ -31,7 +31,7 @@ function Flashproduct() {
                     <div className="alert alert-success"><span>Cashback ₹50</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img style={{marginBottom:"3.8rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMHAWKINS-CONTUNI-114288788E1D0ED/1612016812636_0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"5.7rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMHAWKINS-CONTUNI-114288788E1D0ED/1612016812636_0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹2,400</span> <spant style={{textDecoration: "line-through"}}>₹2,800</spant>
                     </div>
@@ -39,7 +39,7 @@ function Flashproduct() {
                     <div className="alert alert-success"><span>Cashback ₹200</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/P/PE/PERPHILIPS-BT12TRUE11677635D34D6D/0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"1.5rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/P/PE/PERPHILIPS-BT12TRUE11677635D34D6D/0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹800</span> <spant style={{textDecoration: "line-through"}}>₹1,200</spant>
                     </div>

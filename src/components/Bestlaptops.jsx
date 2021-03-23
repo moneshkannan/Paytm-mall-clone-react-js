@@ -6,7 +6,7 @@ function Bestlaptops() {
             <h1 style={{fontWeight:"bolder"}}>Bestselling Laptops</h1>
             <div className="card-deck" style={{alignItems:"center",textAlign:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem"}}>
                 <div className="card" style={{width: "18rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773965/1616184880789.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
+                    <a href="/"><img  src="https://assetscdn1.paytm.com/images/catalog/view_item/773965/1616184880789.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
                 </div>
                 <div className="card" style={{width: "18rem", border:"none"}}>
                     <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/view_item/773966/1616184675291.png?imwidth=414&impolicy=hq" className="card-img-top" alt=".."/></a>
@@ -99,11 +99,11 @@ function Bestlaptops() {
             <button type="button" class="btn btn-danger rounded-pill"><span style={{fontWeight:"bold",marginLeft:"1rem",marginRight:"1rem",marginBottom:"3rem"}}>View all</span></button>
             <div className="card-deck" style={{alignItems:"center", justifyContent:"space-evenly", display:"flex", marginLeft:"2rem", marginRight:"2rem", marginBottom:"3rem",marginTop:"2rem"}}>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img style={{marginBottom:"3.4rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPLENOVO-IDEAPUNBO867328D4A8736A/0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"3.8rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPLENOVO-IDEAPUNBO867328D4A8736A/0.jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹39,999</span> <span style={{textDecoration: "line-through",fontSize:"17px"}}>₹50,999</span>
                     </div>
-                    <div className="content"><span>Lenovo Ideapad...</span></div>
+                    <div className="content"><a href="/"><span>Lenovo Ideapad...</span></a></div>
                     <div className="alert alert-success"><span>Cashback ₹1,400</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
@@ -111,31 +111,31 @@ function Bestlaptops() {
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹30,000</span> <span style={{textDecoration: "line-through",fontSize:"17px"}}>₹35,999</span>
                     </div>
-                    <div className="content"><span>Avita Essential..</span></div>
+                    <div className="content"><a href="/"><span>Avita Essential..</span></a></div>
                     <div className="alert alert-success"><span>Cashback ₹1,300</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-14-INTEL-GREE395087F5339C8E/1605251592397_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"1rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPHP-14-INTEL-GREE395087F5339C8E/1605251592397_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹2815</span> <span style={{textDecoration: "line-through",fontSize:"17px"}}>₹41,200</span>
                     </div>
-                    <div className="content"><span>Hp Desire </span></div>
+                    <div className="content"><a href="/"><span>Hp Desire </span></a></div>
                     <div className="alert alert-success"><span>Cashback ₹1,050</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img style={{marginBottom:"3.8rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE4622243DBEE10/1582027981835_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"3.5rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE4622243DBEE10/1582027981835_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹72,400</span> <span style={{textDecoration: "line-through",fontSize:"17px"}}>₹82,800</span>
                     </div>
-                    <div className="content"><span>Microsoft Surface pro</span></div>
+                    <div className="content"><a href="/"><span>Microsoft Surface pro</span></a></div>
                     <div className="alert alert-success"><span>Cashback ₹1,200</span></div>
                 </div>
                 <div className="card parent" style={{width: "5rem", border:"none"}}>
-                    <a href="/"><img src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE46222B0A06212/1594991587913_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
+                    <a href="/"><img style={{marginBottom:"1.5rem"}} src="https://assetscdn1.paytm.com/images/catalog/product/L/LA/LAPMICROSOFT-SUSUPE46222B0A06212/1594991587913_0..jpg?imwidth=280&impolicy=hq" className="card-img-top child" alt=".."/></a>
                     <div className="price">
                     <span style={{color:"orangered",fontSize:"20px"}}>₹88,800</span> <span style={{textDecoration: "line-through",fontSize:"17px"}}>₹91,200</span>
                     </div>
-                    <div className="content"><span>Microsoft Surface pro X..</span></div>
+                    <div className="content"><a href="/"><span>Microsoft Surface pro X..</span></a></div>
                     <div className="alert alert-success"><span>Cashback ₹3250</span></div>
                 </div>
             </div>
